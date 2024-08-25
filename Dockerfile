@@ -4,5 +4,5 @@ USER     roboshop
 WORKDIR  /app
 COPY     src src
 COPY     pom.xml pom.xml
-RUN      maven clean package
+RUN      mvn clean package
 CMD      ["java", "-jar", "target/shipping.jar"]
