@@ -1,6 +1,6 @@
 replicaCount: 1
 image:
-  repository: 975050272810.dkr.ecr.us-east-1.amazonaws.com/cart
+  repository: 975050272810.dkr.ecr.us-east-1.amazonaws.com/shipping
   pullPolicy: Always
 
 
