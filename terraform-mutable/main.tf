@@ -8,4 +8,5 @@ module "cart" {
   COMPONENT           = "shipping"
   PORT                = 8080
   IS_PRIVATE_LB       = "true"
+  LB_RULE_PRIORITY    = 104
 }
