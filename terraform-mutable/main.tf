@@ -1,4 +1,4 @@
-module "cart" {
+module "shipping" {
   source              = "git::https://github.com/rajashekhar-a/terraform-mutable.git//app-module"
   SPOT_INSTANCE_TYPE  = var.SPOT_INSTANCE_TYPE
   ENV                 = var.ENV
