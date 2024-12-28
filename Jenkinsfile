@@ -6,6 +6,6 @@
 // )
 
 java(
-    COMPONENT                 : 'catalogue',
+    COMPONENT                 : 'shipping',
     LABEL                     : 'WORKSTATION'
 )
