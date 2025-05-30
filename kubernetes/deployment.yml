@@ -15,5 +15,6 @@ spec:
         tier: shipping
     spec:
       containers:
-        - name: cart
+        - name: shipping
           image: 863518461004.dkr.ecr.us-east-1.amazonaws.com/shipping:latest
+
