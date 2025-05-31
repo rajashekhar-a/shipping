@@ -4,5 +4,5 @@ USER     roboshop
 WORKDIR  /app
 COPY     src src
 COPY     pom.xml pom.xml
-RUN      mvn clean package -DskipTests
-CMD      ["java", "-jar", "target/shipping.jar"]
+RUN      mvn clean package
+CMD      ["java", "-Xmx2500m", "-jar", "target/shipping-1.0.jar" ]
