@@ -19,4 +19,16 @@ spec:
           image: 863518461004.dkr.ecr.us-east-1.amazonaws.com/shipping:latest
           ports:
             - containerPort: 8080
+          env:
+            - name: CART_ENDPOINT
+              valueFrom:
+                configMapKeyRef:
+                  name: shipping-config
+                  key: CART_ENDPOINT
+            - name: DB_HOST
+              valueFrom:
+                configMapKeyRef:
+                  name: shipping-config
+                  key: DB_HOST
+
 
